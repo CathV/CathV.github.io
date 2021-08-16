@@ -6,17 +6,40 @@ body {
     font-family:"Raleway";
 
 }
-#liste_hebergements_1 {
-    display: flex;
+h1{
+    font-size: larger;
+    font-weight:bold
 }
-#liste_hebergements_2 {
-    display: flex;
-    align-items: center;
+h2{
+    font-size: large;
+    font-weight: bold;
 }
-.hebergement_card {
+h3{
+    font-size: large;
+    font-weight: bold;
+}
+h4{
+    font-size: medium;
+    font-weight: bold;
+}
+figure{
     border-radius: 25px;
     background-color: white;
     box-shadow: slategray;
-    max-width: 220px;
-    max-height: 180px;
+}
+#img_hebergement{
+    overflow: hidden;
+    object-fit: contain;
+    max-width: 300px;
+    max-height: 150px;
+    border-radius: 20px 20px 0px 0px;
+}
+#liste_hebergements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
 }
