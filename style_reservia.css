@@ -20,6 +20,7 @@
 }
 body {
     margin: 44px;
+    font-family: 'Raleway-Light';
 }
 p{
     font-family: 'Raleway_Light';
@@ -28,18 +29,17 @@ p{
 h1{
     font-family: 'Raleway_Bold';
     font-size: x-large;
-    font-weight:900; 
 }
 h2{
+    font-family: 'Raleway_Bold';
     font-size: large;
-    font-weight: bold;
 }
 h3{
+    font-family: 'Raleway_Medium';
     font-size: large;
-    font-weight: bold;
 }
 h4{
-    font-family: 'Raleway_Bold';
+    font-family: 'Raleway_Medium';
     font-size: 14px;
     margin:8px 0px 8px 0px;
 }
@@ -174,4 +174,12 @@ figcaption{
 }
 footer{
     display: flex;
+    flex-direction: row;
+}
+.footer_column{
+    margin: 32px;
+}
+.footer_links_column{
+    display: flex;
+    flex-direction: column;
 }
