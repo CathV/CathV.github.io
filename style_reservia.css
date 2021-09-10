@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'Raleway_Black';
-    src: url('/raleway_font/Raleway-Black.ttf');
+    src: url('/Raleway-Black.ttf');
 }
 @font-face {
     font-family: 'Raleway_Light';
-    src: url('/raleway_font/Raleway-Light.ttf');
+    src: url('/Raleway-Light.ttf');
 }
 @font-face {
     font-family: 'Raleway_Bold';
-    src: url('/raleway_font/Raleway-Bold.ttf');
+    src: url('/Raleway-Bold.ttf');
 }
 @font-face {
     font-family: 'Raleway_Regular';
-    src: url('/raleway_font/Raleway-Regular.ttf');
+    src: url('/Raleway-Regular.ttf');
 }
 @font-face {
     font-family: 'Raleway_Medium';
-    src: url('/raleway_font/Raleway-Medium.ttf');
+    src: url('/Raleway-Medium.ttf');
 }
 body {
     margin: 44px;
