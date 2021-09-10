@@ -2,7 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style_reservia.css" />
+        <link rel="stylesheet" href="style_reservia.css" /> <!-- XLarge screen = Under 768px -->
+        <link rel="stylesheet" media="breakpoint_XL" href="style_reservia.css" /> <!-- XLarge screen = Above 1280px -->
+        <link rel="stylesheet" media="breakpoint_L" href="style_reservia_L.css" /> <!-- Large screen = Above 992px -->
+        <link rel="stylesheet" media="breakpoint_M" href="style_reservia_M.css" /> <!-- Tablet = Above 768px -->
+        <link rel="stylesheet" media="breakpoint_S" href="style_reservia_S.css" /> <!-- Mobile = Under 768px -->
         <title>Reservia</title>
         <script src="https://kit.fontawesome.com/3b1219377a.js" crossorigin="anonymous"></script>
     </head>
@@ -50,11 +54,11 @@
         <div id="liste_marseille">
         <figure class="figure_img_top">
             <div id="img_hebergement">
-                <img src="images/hebergements/3_medium/1_auberge_cannebiere.jpg" alt="auberge_cannebiere">
+                <img class="img_resize" src="images/hebergements/4_small/1_auberge_cannebiere.jpg" alt="auberge_cannebiere">
             </div>
             <figcaption>
                 <h4>Auberge de la cannebière</h4>
-                <p>Nuit à partir de <b>25€</b></p>
+                <p class="price">Nuit à partir de <b>25€</b></p>
                 <div id="stars">
                     <i class="fas fa-star"; id="active_star"></i>
                     <i class="fas fa-star"; id="active_star"></i>
@@ -66,11 +70,11 @@
         </figure>
         <figure class="figure_img_top">
             <div id="img_hebergement">
-                <img src="images/hebergements/3_medium/2_hotel_port.jpg" alt="hotel_port">
+                <img class="img_resize" src="images/hebergements/4_small/2_hotel_port.jpg" alt="hotel_port">
             </div>
             <figcaption>
                 <h4>Hôtel du port</h4>
-                <p>Nuit à partir de <b>52€</b></p>
+                <p class="price">Nuit à partir de <b>52€</b></p>
                 <div id="stars">
                     <i class="fas fa-star"; id="active_star"></i>
                     <i class="fas fa-star"; id="active_star"></i>
@@ -82,11 +86,11 @@
         </figure>
         <figure class="figure_img_top">
             <div id="img_hebergement">
-                <img src="images/hebergements/3_medium/3_hotel_mouettes.jpg" alt="hotel_mouettes">
+                <img class="img_resize" src="images/hebergements/4_small/3_hotel_mouettes.jpg" alt="hotel_mouettes">
             </div>
             <figcaption>
                 <h4>Hôtel Les mouettes</h4>
-                <p>Nuit à partir de <b>76€</b></p>
+                <p class="price">Nuit à partir de <b>76€</b></p>
                 <div id="stars">
                     <i class="fas fa-star"; id="active_star"></i>
                     <i class="fas fa-star"; id="active_star"></i>
@@ -98,11 +102,11 @@
         </figure>
         <figure class="figure_img_top">
             <div id="img_hebergement">
-                <img src="images/hebergements/3_medium/4_hotel_mer.jpg" alt="hotel_mer">
+                <img class="img_resize" src="images/hebergements/4_small/4_hotel_mer.jpg" alt="hotel_mer">
             </div>
             <figcaption>
                 <h4>Hôtel de la mer</h4>
-                <p>Nuit à partir de <b>46€</b></p>
+                <p class="price">Nuit à partir de <b>46€</b></p>
                 <div id="stars">
                     <i class="fas fa-star"; id="active_star"></i>
                     <i class="fas fa-star"; id="active_star"></i>
@@ -114,11 +118,11 @@
         </figure>
         <figure class="figure_img_top">
             <div id="img_hebergement">
-                <img src="images/hebergements/3_medium/5_auberge_panier.jpg" alt="auberge_panier">
+                <img class="img_resize" src="images/hebergements/4_small/5_auberge_panier.jpg" alt="auberge_panier">
             </div>
             <figcaption>
                 <h4>Auberge Le Panier</h4>
-                <p>Nuit à partir de <b>23€</b></p>
+                <p class="price">Nuit à partir de <b>23€</b></p>
                 <div id="stars">
                     <i class="fas fa-star"; id="active_star"></i>
                     <i class="fas fa-star"; id="active_star"></i>
@@ -130,11 +134,11 @@
         </figure>
         <figure class="figure_img_top">
             <div id="img_hebergement">
-                <img src="images/hebergements/3_medium/6_hotel_amiina.jpg" alt="hotel_amina">
+                <img class="img_resize" src="images/hebergements/4_small/6_hotel_amiina.jpg" alt="hotel_amina">
             </div>
             <figcaption>
                 <h4>Hôtel chez Amina</h4>
-                <p>Nuit à partir de <b>96€</b></p>
+                <p class="price">Nuit à partir de <b>96€</b></p>
                 <div id="stars">
                     <i class="fas fa-star"; id="active_star"></i>
                     <i class="fas fa-star"; id="active_star"></i>
@@ -208,7 +212,7 @@
     <div id="liste_activites">
     <figure class="figure_big">
         <div id="img_big">
-            <img src="images/hebergements/3_medium/1_auberge_cannebiere.jpg" alt="hotel_soleil">
+            <img src="images/activites/4_small/1_vieux_port.jpg" alt="hotel_soleil">
         </div>
         <figcaption>
             <h4>Vieux Port</h4>
@@ -216,7 +220,7 @@
     </figure>
     <figure class="figure_medium">
         <div id="img_medium">
-            <img src="images/hebergements/3_medium/2_hotel_port.jpg" alt="chambre_eau">
+            <img src="images/activites/4_small/2_fort.jpg" alt="chambre_eau">
         </div>
         <figcaption>
             <h4>Fort de Pomègues</h4>
@@ -224,7 +228,7 @@
     </figure>
     <figure class="figure_small">
         <div id="img_small">
-            <img src="images/hebergements/3_medium/3_hotel_mouettes.jpg" alt="hotel_bleu">
+            <img src="images/activites/4_small/3.iles_frioul.jpg" alt="hotel_bleu">
         </div>
         <figcaption>
             <h4>Îles du Frioul</h4>
@@ -232,7 +236,7 @@
     </figure>
     <figure class="figure_big">
         <div id="img_big">
-            <img src="images/hebergements/3_medium/1_auberge_cannebiere.jpg" alt="hotel_soleil">
+            <img src="images/activites/4_small/4_calanques.jpg" alt="hotel_soleil">
         </div>
         <figcaption>
             <h4>Parc National des Calanques</h4>
@@ -240,7 +244,7 @@
     </figure>
     <figure class="figure_small">
         <div id="img_small">
-            <img src="images/hebergements/3_medium/2_hotel_port.jpg" alt="chambre_eau">
+            <img src="images/activites/4_small/5_nd_garde.jpg" alt="chambre_eau">
         </div>
         <figcaption>
             <h4>Notre-Dame-de-la-Garde</h4>
@@ -248,7 +252,7 @@
     </figure>
     <figure class="figure_medium">
         <div id="img_medium">
-            <img src="images/hebergements/3_medium/3_hotel_mouettes.jpg" alt="hotel_bleu">
+            <img src="images/activites/4_small/6_parc_longchamps.jpg" alt="hotel_bleu">
         </div>
         <figcaption>
             <h4>Parc Longchamp</h4>
