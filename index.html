@@ -22,26 +22,35 @@
         <p id="anchor_action">Activités</p>
         <p id="primary_action">S'inscrire</p>
     </div>
-    </div>
-    
+    </div> 
 </nav>
 
 <section id="header">
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
     <p>En plein centre ville ou en pleine nature</p>
+    <div id="search">
+        <i class="fas fa-map-marker-alt"; id="square_icon"></i>
+        <div id="search_bar">
+            <h3>Marseille, France</h3>
+        </div>
+        <div id="button">
+            <h3>Rechercher</h3>
+        </div>
+
+    </div>
     <div id="filters">
         <h3 style="margin-right: 16px">Filtres</h3>
         <div id="filter_chip">
-            <i class="fas fa-money-bill-wave"; id="round_icon"></i><h3 style="padding: 8px 16px; margin: 0px;">Économique</h3>
+            <i class="fas fa-money-bill-wave"; id="round_icon"></i><h3 style="padding: 8px 16px 8px 8px; margin: 0px;">Économique</h3>
         </div>
         <div id="filter_chip">
-            <i class="fas fa-child"; id="round_icon"></i><h3 style="padding: 8px 16px; margin: 0px;">Familial</h3>
+            <i class="fas fa-child"; id="round_icon"></i><h3 style="padding: 8px 16px 8px 8px; margin: 0px;">Familial</h3>
         </div>
         <div id="filter_chip">
-            <i class="fas fa-heart"; id="round_icon"></i><h3 style="padding: 8px 16px; margin: 0px;">Romantique</h3>
+            <i class="fas fa-heart"; id="round_icon"></i><h3 style="padding: 8px 16px 8px 8px; margin: 0px;">Romantique</h3>
         </div>
         <div id="filter_chip">
-            <i class="fas fa-dog"; id="round_icon"></i><h3 style="padding: 8px 16px; margin: 0px;">Animaux autorisés</h3>
+            <i class="fas fa-dog"; id="round_icon"></i><h3 style="padding: 8px 16px 8px 8px; margin: 0px;">Animaux autorisés</h3>
         </div>
     </div>
     <p><i class="fas fa-info"; id="info_icon"></i> Plus de 500 logements sont disponibles dans cette ville</p>
@@ -55,7 +64,7 @@
             <div id="img_hebergement">
                 <img class="img_resize_top" src="images/hebergements/4_small/1_auberge_cannebiere.jpg" alt="auberge_cannebiere">
             </div>
-            <figcaption>
+            <figcaption id="caption_hebergement">
                 <h4>Auberge de la Cannebière</h4>
                 <p class="price">Nuit à partir de <b>25€</b></p>
                 <div id="stars">
@@ -71,7 +80,7 @@
             <div id="img_hebergement">
                 <img class="img_resize_top" src="images/hebergements/4_small/2_hotel_port.jpg" alt="hotel_port">
             </div>
-            <figcaption>
+            <figcaption id="caption_hebergement">
                 <h4>Hôtel du Port</h4>
                 <p class="price">Nuit à partir de <b>52€</b></p>
                 <div id="stars">
@@ -87,7 +96,7 @@
             <div id="img_hebergement">
                 <img class="img_resize_top" src="images/hebergements/4_small/3_hotel_mouettes.jpg" alt="hotel_mouettes">
             </div>
-            <figcaption>
+            <figcaption id="caption_hebergement">
                 <h4>Hôtel Les Mouettes</h4>
                 <p class="price">Nuit à partir de <b>76€</b></p>
                 <div id="stars">
@@ -103,7 +112,7 @@
             <div id="img_hebergement">
                 <img class="img_resize_top" src="images/hebergements/4_small/4_hotel_mer.jpg" alt="hotel_mer">
             </div>
-            <figcaption>
+            <figcaption id="caption_hebergement">
                 <h4>Hôtel de la Mer</h4>
                 <p class="price">Nuit à partir de <b>46€</b></p>
                 <div id="stars">
@@ -119,7 +128,7 @@
             <div id="img_hebergement">
                 <img class="img_resize_top" src="images/hebergements/4_small/5_auberge_panier.jpg" alt="auberge_panier">
             </div>
-            <figcaption>
+            <figcaption id="caption_hebergement">
                 <h4>Auberge Le Panier</h4>
                 <p class="price">Nuit à partir de <b>23€</b></p>
                 <div id="stars">
@@ -135,7 +144,7 @@
             <div id="img_hebergement">
                 <img class="img_resize_top" src="images/hebergements/4_small/6_hotel_amiina.jpg" alt="hotel_amina">
             </div>
-            <figcaption>
+            <figcaption id="caption_hebergement">
                 <h4>Hôtel chez Amina</h4>
                 <p class="price">Nuit à partir de <b>96€</b></p>
                 <div id="stars">
@@ -195,7 +204,7 @@
         </figure>
         <figure class="figure_img_left">
         <div id="img_populaire">
-            <img class="img_resize_left" src="images/hebergements/3_medium/c_tout_bleu.jpg" alt="hotel_bleu">
+            <img class="img_resize_top" src="images/hebergements/3_medium/c_tout_bleu.jpg" alt="hotel_bleu">
         </div>
         <figcaption id="caption_populaires">
             <div>
@@ -220,52 +229,56 @@
     <div id="liste_activites">
     <figure class="figure_big">
         <div id="img_big">
-            <img src="images/activites/4_small/1_vieux_port.jpg" alt="hotel_soleil">
+            <img class="img_resize_big" src="images/activites/3_medium/1.port.jpg" alt="vieux_port">
         </div>
-        <figcaption>
+        <figcaption id="caption_activites">
             <h4>Vieux Port</h4>
         </figcaption>
     </figure>
-    <figure class="figure_medium">
-        <div id="img_medium">
-            <img src="images/activites/4_small/2_fort.jpg" alt="chambre_eau">
-        </div>
-        <figcaption>
-            <h4>Fort de Pomègues</h4>
-        </figcaption>
-    </figure>
-    <figure class="figure_small">
-        <div id="img_small">
-            <img src="images/activites/4_small/3.iles_frioul.jpg" alt="hotel_bleu">
-        </div>
-        <figcaption>
-            <h4>Îles du Frioul</h4>
-        </figcaption>
-    </figure>
+    <div id="column_x2">
+        <figure class="figure_medium">
+            <div id="img_medium">
+                <img class="img_resize_top" src="images/activites/3_medium/2.fort.jpg" alt="fort_marseille">
+            </div>
+            <figcaption id="caption_activites">
+                <h4>Fort de Pomègues</h4>
+            </figcaption>
+        </figure>
+        <figure class="figure_small">
+            <div id="img_small">
+                <img class="img_resize_top" src="images/activites/3_medium/3.frioul.jpg" alt="Iles Frioul">
+            </div>
+            <figcaption id="caption_activites">
+                <h4>Îles du Frioul</h4>
+            </figcaption>
+        </figure>
+    </div>
     <figure class="figure_big">
         <div id="img_big">
-            <img src="images/activites/4_small/4_calanques.jpg" alt="hotel_soleil">
+            <img class="img_resize_big" src="images/activites/3_medium/4.calanques.jpg" alt="Les Calanques">
         </div>
-        <figcaption>
+        <figcaption id="caption_activites">
             <h4>Parc National des Calanques</h4>
         </figcaption>
     </figure>
-    <figure class="figure_small">
-        <div id="img_small">
-            <img src="images/activites/4_small/5_nd_garde.jpg" alt="chambre_eau">
-        </div>
-        <figcaption>
-            <h4>Notre-Dame-de-la-Garde</h4>
-        </figcaption>
-    </figure>
-    <figure class="figure_medium">
-        <div id="img_medium">
-            <img src="images/activites/4_small/6_parc_longchamps.jpg" alt="hotel_bleu">
-        </div>
-        <figcaption>
-            <h4>Parc Longchamp</h4>
-        </figcaption>
-    </figure>
+    <div id="column_x2">
+        <figure class="figure_small">
+            <div id="img_small">
+                <img class="img_resize_top" src="images/activites/3_medium/5.nd_garde.jpg" alt="eglise Notre-Dame-de-la-Garde">
+            </div>
+            <figcaption id="caption_activites">
+                <h4>Notre-Dame-de-la-Garde</h4>
+            </figcaption>
+        </figure>
+        <figure class="figure_medium">
+            <div id="img_medium">
+                <img class="img_resize_top" src="images/activites/3_medium/6.parc_longchamp.jpg" alt="Parc Longchamp">
+            </div>
+            <figcaption id="caption_activites">
+                <h4>Parc Longchamp</h4>
+            </figcaption>
+        </figure>
+    </div>
     </div>
 </section>
 
