@@ -140,8 +140,7 @@ h4{
 #section_hebergements{
     display: flex;
     justify-content:space-evenly;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column-reverse;
     margin-bottom: 64px;
     margin-top: 32px;
 }

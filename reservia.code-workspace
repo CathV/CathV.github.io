@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "cathv.github.io",
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
