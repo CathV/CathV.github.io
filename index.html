@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style_reservia.css" /> <!-- Default screen = Above 1280px -->
-        <link rel="stylesheet" media="screen and (max-width: 1279px)" href="style_reservia_L.css" /> <!-- Large screen = Above 992px -->
-        <link rel="stylesheet" media="screen and (max-width: 991px)" href="style_reservia_M.css" /> <!-- Tablet = Above 768px -->
+        <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1279px)" href="style_reservia_L.css" /> <!-- Large screen = Above 992px -->
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="style_reservia_M.css" /> <!-- Tablet = Above 768px -->
         <link rel="stylesheet" media="screen and (max-width: 767px)" href="style_reservia_S.css" /> <!-- Mobile = Under 768px -->
         <title>Reservia</title>
         <script src="https://kit.fontawesome.com/3b1219377a.js" crossorigin="anonymous"></script>
@@ -35,7 +35,7 @@
         <div id="search_bar">
             <form method="post" action="traitement.php">
                 <p>
-                    <input type="text" name="city" id="city" style="border: 0px; height: 32px;"/>
+                    <input type="text" name="city" id="city" placeholder="Marseille, France" style="border: 0px; height: 32px;"/>
                 </p>
              </form>
         </div>
