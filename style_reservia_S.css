@@ -19,8 +19,9 @@
     src: url('/Raleway-Medium.ttf');
 }
 body {
-    margin: 44px;
+    margin: 16px;
     font-family: 'Raleway-Light';
+    max-width: 767px;
 }
 p{
     font-family: 'Raleway_Light';
@@ -28,11 +29,11 @@ p{
 }
 #h3like{
     font-family: 'Raleway_Medium';
-    font-size: 16px;
+    font-size: 14px;
 }
 h1{
     font-family: 'Raleway_Bold';
-    font-size: x-large;
+    font-size: 20px;
 }
 h2{
     font-family: 'Raleway_Bold';
@@ -46,6 +47,26 @@ h4{
     font-family: 'Raleway_Medium';
     font-size: 14px;
     margin:8px 0px 4px 0px;
+}
+#navigation_bar{
+    display: flex;
+    flex-direction: column;
+}
+#upper_nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#navigation_tabs{
+    display: flex;
+    flex-direction: row;
+    border-bottom: #cacaca solid 2px;
+}
+.focus_action{
+    color: #0065FC;
+    border-bottom: #0065FC solid 2px;
 }
 .price{
     margin: 4px 0px 4px 0px;
@@ -112,6 +133,7 @@ h4{
 #filters{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 #filter_chip{
@@ -139,20 +161,18 @@ h4{
 }
 #section_hebergements{
     display: flex;
-    justify-content:space-evenly;
     flex-direction: column-reverse;
     margin-bottom: 64px;
     margin-top: 32px;
 }
 #section_marseille{
-    background-color: #F2F2F2;
-    padding: 24px;
+    background-color: white;
     border-radius: 20px;
-    margin-right: 24px;
+    width: 100%;
 }
 #liste_marseille{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 0px;
@@ -162,9 +182,9 @@ h4{
     background-color: white;
     padding: 4px;
     box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 230px;
+    width: 100%;
     height: 180px;
-    margin: 16px 0px 16px 0px;
+    margin: 8px 0px 8px 0px;
 }
 #img_hebergement{
     display: flex;
@@ -179,7 +199,7 @@ h4{
     max-width: 100%;
 }
 .img_resize_big{
-    max-height: 100%;
+    max-width: 100%;
 }
 #caption_hebergement{
     padding-bottom: 8px;
@@ -188,9 +208,8 @@ h4{
 }
 #section_populaire{
     background-color: #F2F2F2;
-    padding: 24px;
-    border-radius: 20px;
-    width: 45%;
+    width: 100%;
+    margin-bottom: 24px;
 }
 #title_populaires{
     display: flex;
@@ -250,9 +269,8 @@ h4{
 }
 #liste_activites{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 460px;
+    flex-direction: column;
+    justify-content: flex-start;
     margin-top: 16px;
 }
 #caption_activites{
@@ -262,32 +280,26 @@ h4{
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 350px;
-    height: 100%;
-    margin: 0px;
+    width: 100%;
+    height: 165px;
+    margin-bottom: 16px;
 }
 #img_big{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     overflow: hidden;
     object-fit:cover;
-    height: 90%;
+    height: 72%;
     border-radius: 20px 20px 0px 0px;
-}
-#column_x2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
 }
 .figure_medium{
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 350px;
-    height: 264px;
-    margin: 0px;
+    width: 100%;
+    height: 165px;
+    margin-bottom: 16px;
 }
 #img_medium{
     display: flex;
@@ -295,16 +307,16 @@ h4{
     justify-content: center;
     overflow: hidden;
     object-fit:cover;
-    height: 82%;
+    height: 72%;
     border-radius: 20px 20px 0px 0px;
 }
 .figure_small{
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 350px;
+    width: 100%x;
     height: 165px;
-    margin: 0px;
+    margin-bottom: 16px;
 }
 #img_small{
     display: flex;
