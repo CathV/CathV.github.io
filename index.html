@@ -13,17 +13,15 @@
 
 <body>
 
-<nav>
-    <div id="navigation_tabs">
-        <p class="logo">
-            <img src="images/logo/Reservia.svg" alt="reservia_logo">
-        </p>
-        <div class="anchor_tabs">
-                <p class="focus_action">Hébergements</p>
-                <p class="anchor_action">Activités</p>
-        </div>
-        <p class="primary_action" id="h4like">S'inscrire</p>
-        </div>
+<nav id="navigation_bar">
+    <p class="logo">
+        <img src="images/logo/Reservia.svg" alt="reservia_logo">
+    </p>
+    <div class="anchor_tabs">
+        <p class="focus_action">Hébergements</p>
+        <p class="anchor_action">Activités</p>
+    </div>
+    <p class="primary_action">S'inscrire</p>
 </nav>
 
 <section id="header">
@@ -39,8 +37,8 @@
              </form>
         </div>
         <div id="button">
-            <p id="h4like" class="option_display">Rechercher</p>
-            <i class="fas fa-search" class="option_display"></i>
+            <p id="h4like" class="option_display_desktop">Rechercher</p>
+            <i class="fas fa-search" id="option_display_mobile"></i>
         </div>
 
     </div>
@@ -61,7 +59,7 @@
             </div>
         </div>
     </div>
-    <p style="display: flex; flex-flow: row nowrap; ">
+    <p class="info_note">
         <i class="fas fa-info"; id="info_icon"></i> 
         Plus de 500 logements sont disponibles dans cette ville
     </p>

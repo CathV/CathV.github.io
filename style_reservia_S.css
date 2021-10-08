@@ -6,38 +6,36 @@ h1{
     font-family: 'Raleway_Medium';
     font-size: 22px;
 }
-#navigation_tabs{
-    display: flex;
-    flex-direction: row;
+#navigation_bar{
     flex-wrap: wrap;
     margin-left: -16px;
     margin-right: -16px;
-    align-items: center;
 }
 .logo{
     order: -2;
     width: 50%;
+    margin-left: 16px;
 }
 .anchor_tabs{
     order: 1;
     width: 100%;
     border-bottom: solid 3px rgba(202, 202, 202, .5);
+    justify-content: space-between;
 }
 .focus_action{
-    color: #0065FC;
     border-bottom: #0065FC solid 3px;
     width: 50%;
-    margin: 0px;
     padding: 16px;
-    text-align: center;
 }
 .anchor_action{
     width: 50%;
     text-align: center;
+    padding: 16px;
 }
 .primary_action{
-    color: #0065FC;
     order: -1;
+    margin-right: 16px;
+    padding: 16px;
 }
 #search{
     border-radius: 15px;
@@ -45,57 +43,28 @@ h1{
 #square_icon{
     border-radius: 12px 0px 0px 12px;
 }
-#search_bar{
-    padding: 0px 16px;
-    width: 150px;
-}
 #button{
     border-radius: 12px;
 }
-.option_display{
+.option_display_desktop{
     display: none;
 }
 #filters{
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
 }
-#filters_block{
-    display: flex;
-    flex-flow: row wrap;
-}
 #filter_chip{
-    border: 2px solid #F2F2F2;
-    border-radius: 9999px;
     margin: 0px 8px 8px 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-#round_icon{
-    color: #0065FC;
-    background:#DEEBFF;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #info_icon{
-    color: #0065FC;
-    width: 28px;
+    width: 30px;
     height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    border-radius: 50%;
-    border: 1px solid #F2F2F2;
     margin-right: 8px;
-    font-size: 12px;
+    font-size: 14px;
+}
+.info_note{
+    align-items: flex-start; 
 }
 #section_hebergements{
     flex-direction: column-reverse;
