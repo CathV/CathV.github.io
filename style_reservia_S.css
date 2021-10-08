@@ -2,37 +2,17 @@ body {
     margin: 16px;
     font-family: 'Raleway-Regular';
 }
-p{
-    font-family: 'Raleway_Regular';
-    font-size: 14px;
-}
-#h3like{
-    font-family: 'Raleway_Medium';
-    font-size: 14px;
-}
 h1{
-    font-family: 'Raleway_Bold';
-    font-size: 20px;
-}
-h3{
     font-family: 'Raleway_Medium';
-    font-size: 16px;
-}
-h4{
-    font-family: 'Raleway_Medium';
-    font-size: 14px;
-    margin:8px 0px 4px 0px;
+    font-size: 22px;
 }
 #navigation_tabs{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: solid 2px rgba(202, 202, 202, .5);
     margin-left: -16px;
     margin-right: -16px;
-    margin-bottom: 8px;
     align-items: center;
-    
 }
 .logo{
     order: -2;
@@ -41,13 +21,14 @@ h4{
 .anchor_tabs{
     order: 1;
     width: 100%;
+    border-bottom: solid 3px rgba(202, 202, 202, .5);
 }
 .focus_action{
     color: #0065FC;
-    border-bottom: #0065FC solid 2px;
+    border-bottom: #0065FC solid 3px;
     width: 50%;
     margin: 0px;
-    padding-bottom: 16px;
+    padding: 16px;
     text-align: center;
 }
 .anchor_action{
@@ -58,44 +39,21 @@ h4{
     color: #0065FC;
     order: -1;
 }
-.price{
-    margin: 4px 0px 4px 0px;
-}
-.price_pop{
-    margin-top: 4px;
-}
-
 #search{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 2px solid #F2F2F2;
-    max-width: max-content;
-    height: 40px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 #square_icon{
-    background-color: #F2F2F2;
-    border-radius: 10px 0px 0px 10px;
-    padding-left: 16px;
-    padding-right: 16px;
-    height: 40px;
-    display: flex;
-    align-items: center;
+    border-radius: 12px 0px 0px 12px;
 }
 #search_bar{
     padding: 0px 16px;
     width: 150px;
 }
 #button{
-    width: max-content;
-    background-color: #0065FC;
-    padding: 0px 16px;
-    color: white;
-    border-radius: 0px 10px 10px 0px;
-    height: 40px;
-    display: flex;
-    align-items: center;
+    border-radius: 12px;
+}
+.option_display{
+    display: none;
 }
 #filters{
     display: flex;
@@ -140,190 +98,63 @@ h4{
     font-size: 12px;
 }
 #section_hebergements{
-    display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 64px;
-    margin-top: 32px;
 }
 #section_marseille{
     background-color: white;
-    border-radius: 20px;
     width: 100%;
-    padding: 8px;
     margin: 0px
 }
 #liste_marseille{
-    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 0px;
-    margin-bottom: 16px;
 }
 .figure_img_top{
-    border-radius: 20px;
-    background-color: white;
-    padding: 4px;
-    box-shadow: 5px 5px 10px 0px #cacaca;
-    width: 100%;
-    height: 180px;
+    width: 98%;
     margin: 8px 0px 8px 0px;
-    max-width: unset;
-}
-#img_hebergement{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    object-fit:cover;
-    height: 60%;
-    border-radius: 20px 20px 0px 0px;
-}
-.img_resize_top{
-    max-width: 100%;
-}
-.img_resize_big{
-    max-width: 100%;
-    max-height: unset;
-}
-#caption_hebergement{
-    padding-bottom: 8px;
-    padding-left: 8px;
-    height: 40%;
 }
 #section_populaire{
-    background-color: #F2F2F2;
     width: 100%;
     margin-bottom: 24px;
     margin-left: -16px;
     margin-right: -16px;
     padding: 16px;
-    border-radius: 0px;
-}
-#title_populaires{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-#liste_populaires{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 0px;
 }
 .figure_img_left{
-    border-radius: 20px;
-    background-color: white;
-    padding: 4px;
-    box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 100%;
-    margin: 16px 0px 16px 0px;
-    height: 115px;
-    display: flex;
-    flex-direction: row;
-}
-#img_populaire{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    object-fit: cover;
-    width: 40%;
-    height: 100%;
-    border-radius: 20px 0px 0px 20px;
-}
-.img_resize_left{
-    max-height: 100%;
-}
-#caption_populaires{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    width: 60%;
-}
-#stars{
-    justify-self: end;
-}
-#active_star{
-    color: #0065FC;
-    font-size: 12px;
-}
-#unactive_star{
-    color: #F2F2F2; 
-    font-size: 12px;
+    margin: 8px 0px;
+    height: 130px;
 }
 #liste_activites{
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 24px;
 }
-#caption_activites{
-    padding: 8px 8px 8px 16px;
-}
 .figure_big{
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 5px 5px 10px 0px #cacaca;
     width: 100%;
     height: 165px;
-    margin-bottom: 16px;
-    max-width: unset;
+    margin: 0px 0px 16px 0px;
 }
 #img_big{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    object-fit:cover;
     height: 72%;
-    border-radius: 20px 20px 0px 0px;
+}
+.img_resize_big{
+    max-width: 100%;
 }
 .figure_medium{
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 5px 5px 10px 0px #cacaca;
     width: 100%;
     height: 165px;
-    margin-bottom: 16px;
-    max-width: unset;
+    margin: 0px 0px 16px 0px;
 }
 #img_medium{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    object-fit:cover;
     height: 72%;
-    border-radius: 20px 20px 0px 0px;
 }
 .figure_small{
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 5px 5px 10px 0px #cacaca;
     width: 100%x;
-    height: 165px;
-    margin-bottom: 16px;
-    max-width: unset;
-}
-#img_small{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    overflow: hidden;
-    object-fit:cover;
-    height: 72%;
-    border-radius: 20px 20px 0px 0px;
+    margin: 0px 0px 16px 0px;
 }
 footer{
-    display: flex;
     flex-direction: column;
-    background-color: #F2F2F2;
-    margin-top: 32px;
+    padding-top: 32px;
     margin-left: -16px;
     margin-right: -16px
 }

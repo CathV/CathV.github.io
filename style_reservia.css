@@ -24,13 +24,28 @@ h1{
 }
 h2{
     font-family: 'Raleway_Bold';
-    font-size: large;
+    font-size: 20px;
 }
-.price{
-    margin: 4px 0px 4px 0px;
+h3{
+    font-family: 'Raleway_Medium';
+    font-size: 18px;
+    margin: 8px 0px;
 }
-.price_pop{
-    margin-top: 4px;
+#h4like{
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+}
+h4{
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+    margin:8px 0px 4px 0px;
+}
+p{
+    font-family: 'Raleway_Regular';
+    font-size: 16px;
+}
+b{
+    font-family: "Raleway_Medium";
 }
 #navigation_bar{
     display: flex;
@@ -61,37 +76,44 @@ h2{
     color: #0065FC;
     font-weight: bold;
 }
+#header{
+    margin-top: 32px;
+}
 #search{
     display: flex;
     flex-direction: row;
     align-items: center;
     border: 2px solid #F2F2F2;
     max-width: max-content;
-    height: 40px;
-    border-radius: 10px;
+    height: 48px;
+    margin: 32px 0px;
 }
 #square_icon{
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
-    padding-left: 16px;
-    padding-right: 16px;
-    height: 40px;
+    height: 48px;
     display: flex;
     align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 #search_bar{
     padding: 0px 16px;
     width: 150px;
 }
+::placeholder{
+    font-family: 'Raleway_Medium';
+    font-size: 16px;
+    color: black;
+}
 #button{
     width: max-content;
     background-color: #0065FC;
-    padding: 0px 16px;
     color: white;
-    border-radius: 0px 10px 10px 0px;
-    height: 40px;
+    height: 48px;
     display: flex;
     align-items: center;
+    padding: 0px 16px;
 }
 #filters{
     display: flex;
@@ -129,23 +151,17 @@ h2{
     border: 1px solid;
     border-color: #F2F2F2
 }
+.price{
+    margin: 4px 0px 4px 0px;
+    font-size: 14px;
+}
 #section_hebergements{
     display: flex;
-    justify-content:space-evenly;
-    flex-wrap: nowrap;
-    flex-direction: row;
     margin-bottom: 64px;
     margin-top: 32px;
 }
-#section_marseille{
-    background-color: #F2F2F2;
-    padding: 24px;
-    border-radius: 20px;
-    margin-right: 24px;
-}
 #liste_marseille{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 0px;
@@ -155,12 +171,7 @@ h2{
     background-color: white;
     padding: 4px;
     box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 230px;
     height: 180px;
-    margin: 16px 0px 16px 0px;
-}
-::placeholder{
-    color:red;
 }
 #img_hebergement{
     display: flex;
@@ -174,9 +185,6 @@ h2{
 .img_resize_top{
     max-width: 100%;
 }
-.img_resize_big{
-    max-height: 100%;
-}
 #caption_hebergement{
     padding-bottom: 8px;
     padding-left: 8px;
@@ -184,9 +192,6 @@ h2{
 }
 #section_populaire{
     background-color: #F2F2F2;
-    padding: 24px;
-    border-radius: 20px;
-    width: 45%;
 }
 #title_populaires{
     display: flex;
@@ -201,14 +206,16 @@ h2{
     justify-content: space-between;
     margin-left: 0px;
 }
+.price_pop{
+    margin-top: 8px;
+    font-size: 14px;
+}
 .figure_img_left{
     border-radius: 20px;
     background-color: white;
     padding: 4px;
     box-shadow: 5px 5px 10px 0px #cacaca;
     max-width: 100%;
-    margin: 16px 0px 16px 0px;
-    height: 115px;
     display: flex;
     flex-direction: row;
 }
@@ -246,10 +253,6 @@ h2{
 }
 #liste_activites{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 460px;
-    margin-top: 16px;
 }
 #caption_activites{
     padding: 8px 8px 8px 16px;
@@ -258,17 +261,12 @@ h2{
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 350px;
-    height: 100%;
-    margin: 0px;
 }
 #img_big{
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     overflow: hidden;
     object-fit:cover;
-    height: 90%;
     border-radius: 20px 20px 0px 0px;
 }
 #column_x2{
@@ -281,9 +279,6 @@ h2{
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 350px;
-    height: 264px;
-    margin: 0px;
 }
 #img_medium{
     display: flex;
@@ -291,16 +286,13 @@ h2{
     justify-content: center;
     overflow: hidden;
     object-fit:cover;
-    height: 82%;
     border-radius: 20px 20px 0px 0px;
 }
 .figure_small{
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
-    max-width: 350px;
     height: 165px;
-    margin: 0px;
 }
 #img_small{
     display: flex;
@@ -313,17 +305,6 @@ h2{
 }
 footer{
     display: flex;
-    flex-direction: row;
     background-color: #F2F2F2;
     margin-top: 40px;
-    margin-left: -44px;
-    margin-right: -44px
-}
-.footer_column{
-    margin: 32px;
-    width: 30%;
-}
-.footer_links_column{
-    display: flex;
-    flex-direction: column;
 }
