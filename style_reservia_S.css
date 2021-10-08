@@ -97,6 +97,12 @@ h1{
     justify-content: flex-start;
     margin-top: 24px;
 }
+.img_resize_horizontal{
+    max-width: 100%;
+}
+.img_resize_vertical{
+    max-width: 100%;
+}
 .figure_big{
     width: 100%;
     height: 165px;
@@ -105,9 +111,6 @@ h1{
 #img_big{
     align-items: center;
     height: 72%;
-}
-.img_resize_big{
-    max-width: 100%;
 }
 .figure_medium{
     width: 100%;
