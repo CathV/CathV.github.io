@@ -18,18 +18,6 @@
     font-family: 'Raleway_Medium';
     src: url('/Raleway-Medium.ttf');
 }
-body {
-    margin: 44px;
-    font-family: 'Raleway_Regular';
-}
-p{
-    font-family: 'Raleway_Regular';
-    font-size: 14px;
-}
-#h3like{
-    font-family: 'Raleway_Medium';
-    font-size: 16px;
-}
 h1{
     font-family: 'Raleway_Bold';
     font-size: x-large;
@@ -37,15 +25,6 @@ h1{
 h2{
     font-family: 'Raleway_Bold';
     font-size: large;
-}
-h3{
-    font-family: 'Raleway_Medium';
-    font-size: 16px;
-}
-h4{
-    font-family: 'Raleway_Medium';
-    font-size: 14px;
-    margin:8px 0px 4px 0px;
 }
 .price{
     margin: 4px 0px 4px 0px;
@@ -64,6 +43,11 @@ h4{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
+}
+.anchor_tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #focus_action{
     padding: 16px;

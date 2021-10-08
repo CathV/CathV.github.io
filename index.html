@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style_reservia.css" /> <!-- Default screen = Common properties -->
-        <link rel="stylesheet" media="screen and (width: 1280px)" href="style_reservia_XL.css" /> <!-- Default screen = Above 1280px -->
+        <link rel="stylesheet" media="screen and (min-width: 1280px)" href="style_reservia_XL.css" /> <!-- X-Large screen = Above 1280px -->
         <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1279px)" href="style_reservia_L.css" /> <!-- Large screen = Above 992px -->
         <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="style_reservia_M.css" /> <!-- Tablet = Above 768px -->
         <link rel="stylesheet" media="screen and (max-width: 767px)" href="style_reservia_S.css" /> <!-- Mobile = Under 768px -->
@@ -14,18 +14,16 @@
 <body>
 
 <nav>
-    <div id="navigation_bar">
-        <div id="upper_nav">
-            <p>
-                <img src="images/logo/Reservia.svg" alt="reservia_logo">
-            </p>
-            <p id="h3like" style="color: #0065FC;">S'inscrire</p>
+    <div id="navigation_tabs">
+        <p class="logo">
+            <img src="images/logo/Reservia.svg" alt="reservia_logo">
+        </p>
+        <div class="anchor_tabs">
+                <p class="focus_action">Hébergements</p>
+                <p class="anchor_action">Activités</p>
         </div>
-        <div id="navigation_tabs">
-            <p class="focus_action">Hébergements</p>
-            <p class="anchor_action">Activités</p> 
+        <p class="primary_action" id="h3like">S'inscrire</p>
         </div>
-    </div> 
 </nav>
 
 <section id="header">
