@@ -51,30 +51,24 @@ b{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-content:center;
-}
-#navigation_tabs{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
+    align-items:center;
 }
 .anchor_tabs{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
 }
-#focus_action{
-    padding: 16px;
+.focus_action{
     color: #0065FC;
+    margin: 0px;
+    text-align: center;
 }
-#anchor_action{
-    padding: 16px;
+.anchor_action{
+    margin: 0px;
 }
-#primary_action{
-    padding: 16px;
+.primary_action{
     color: #0065FC;
-    font-weight: bold;
+    font-family: 'Raleway_Medium';
 }
 #header{
     margin-top: 32px;
@@ -117,13 +111,14 @@ b{
 }
 #filters{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+}
+#filters_block{
+    display: flex;
+    flex-flow: row wrap;
 }
 #filter_chip{
     border: 2px solid #F2F2F2;
     border-radius: 9999px;
-    margin: 8px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -141,16 +136,18 @@ b{
 }
 #info_icon{
     color: #0065FC;
-    width: 32px;
-    height: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: white;
+    border: 1px solid #F2F2F2;
     border-radius: 50%;
-    border: 1px solid;
-    border-color: #F2F2F2
+    margin-right: 16px;
 }
+.info_note{
+    display: flex; 
+    flex-flow: row nowrap;
+} 
 .price{
     margin: 4px 0px 4px 0px;
     font-size: 14px;
