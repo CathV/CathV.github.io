@@ -121,6 +121,8 @@ h1{
 footer{
     flex-direction: row;
     margin-top: 40px;
+    margin-left: -32px;
+    margin-right: -32Px;
 
 }
 .footer_column{

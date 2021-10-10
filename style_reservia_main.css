@@ -18,12 +18,8 @@
     font-family: 'Raleway_Medium';
     src: url('/Raleway-Medium.ttf');
 }
-h1{
-    font-family: 'Raleway_Bold';
-    font-size: x-large;
-}
 h2{
-    font-family: 'Raleway_Bold';
+    font-family: 'Raleway_Medium';
     font-size: 20px;
 }
 h3{
