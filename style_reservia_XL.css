@@ -76,12 +76,13 @@ h1{
 .figure_img_left{
     margin: 16px 0px 16px 0px;
     height: 115px;
+    max-width: 100%;
 }
 #liste_activites{
     flex-direction: row;
     justify-content: space-between;
     height: 460px;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 .img_resize_horizontal{
     max-height: 100%;

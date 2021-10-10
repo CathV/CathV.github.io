@@ -91,6 +91,7 @@ h1{
 .figure_img_left{
     margin: 8px 0px;
     height: 130px;
+    max-width: 100%;
 }
 #liste_activites{
     flex-direction: column;
