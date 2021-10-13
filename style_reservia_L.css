@@ -40,7 +40,7 @@ h1{
     flex-direction: row;
     align-items: center;
 }
-#filter_chip{
+.filter_chip{
     margin: 8px;
 }
 #info_icon{
@@ -95,7 +95,7 @@ h1{
     height: 100%;
     margin: 0px 16px 0px 0px;
 }
-#img_big{
+.img_big{
     align-items: flex-start;
     height: 86%;
 }
@@ -111,7 +111,7 @@ h1{
     height: 264px;
     margin: 0px;
 }
-#img_medium{
+.img_medium{
     height: 82%;
 }
 .figure_small{

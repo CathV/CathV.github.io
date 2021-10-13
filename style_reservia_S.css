@@ -54,7 +54,7 @@ h1{
     flex-wrap: wrap;
     align-items: flex-start;
 }
-#filter_chip{
+.filter_chip{
     margin: 0px 8px 8px 0px;
 }
 #info_icon{
@@ -109,7 +109,7 @@ h1{
     height: 165px;
     margin: 0px 0px 16px 0px;
 }
-#img_big{
+.img_big{
     align-items: center;
     height: 72%;
 }
@@ -118,7 +118,7 @@ h1{
     height: 165px;
     margin: 0px 0px 16px 0px;
 }
-#img_medium{
+.img_medium{
     height: 72%;
 }
 .figure_small{

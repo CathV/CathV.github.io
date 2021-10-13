@@ -55,7 +55,7 @@ h1{
     flex-wrap: wrap;
     align-items: flex-start;
 }
-#filter_chip{
+.filter_chip{
     margin: 0px 8px 16px 0px;
 }
 #info_icon{
@@ -110,14 +110,14 @@ h1{
 .img_resize_left{
     max-height: 100%;
 }
-#stars{
+.stars{
     justify-self: end;
 }
-#active_star{
+.active_star{
     color: #0065FC;
     font-size: 12px;
 }
-#unactive_star{
+.unactive_star{
     color: #F2F2F2; 
     font-size: 12px;
 }
@@ -145,7 +145,7 @@ h1{
     height: 230px;
     margin: 0px 0px 24px 0px;
 }
-#img_big{
+.img_big{
     align-items: center;
     height: 80%;
 }
@@ -154,7 +154,7 @@ h1{
     height: 230px;
     margin: 0px 24px 24px 0px;
 }
-#img_medium{
+.img_medium{
     align-items: center;
     height: 80%;
 }
@@ -163,7 +163,7 @@ h1{
     height: 230px;
     margin: 0px 0px 24px 0px;
 }
-#img_small{
+.img_small{
     align-items: flex-start;
     height: 80%;
 }

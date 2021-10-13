@@ -27,7 +27,7 @@ h3{
     font-size: 18px;
     margin: 8px 0px;
 }
-#h4like{
+.h4like{
     font-family: 'Raleway_Medium';
     font-size: 16px;
 }
@@ -126,7 +126,7 @@ a:hover{
     display: flex;
     flex-flow: row wrap;
 }
-#filter_chip{
+.filter_chip{
     border: 2px solid #F2F2F2;
     border-radius: 9999px;
     display: flex;
@@ -134,10 +134,10 @@ a:hover{
     flex-wrap: nowrap;
     align-items: center;
 }
-#filter_chip:hover{
+.filter_chip:hover{
     background-color: #DEEBFF;
 }
-#round_icon{
+.round_icon{
     color: #0065FC;
     background:#DEEBFF;
     border-radius: 50%;
@@ -183,7 +183,7 @@ a:hover{
     box-shadow: 5px 5px 10px 0px #cacaca;
     height: 180px;
 }
-#img_hebergement{
+.img_hebergement{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,7 +195,7 @@ a:hover{
 .img_resize_top{
     max-width: 100%;
 }
-#caption_hebergement{
+.caption_hebergement{
     padding-bottom: 8px;
     padding-left: 8px;
     height: 40%;
@@ -228,7 +228,7 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
-#img_populaire{
+.img_populaire{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,7 +241,7 @@ a:hover{
 .img_resize_left{
     max-height: 100%;
 }
-#caption_populaires{
+.caption_populaires{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -249,21 +249,21 @@ a:hover{
     padding-left: 16px;
     width: 60%;
 }
-#stars{
+.stars{
     justify-self: end;
 }
-#active_star{
+.active_star{
     color: #0065FC;
     font-size: 12px;
 }
-#unactive_star{
+.unactive_star{
     color: #F2F2F2; 
     font-size: 12px;
 }
 #liste_activites{
     display: flex;
 }
-#caption_activites{
+.caption_activites{
     padding: 8px 8px 8px 16px;
 }
 .figure_big{
@@ -271,7 +271,7 @@ a:hover{
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
 }
-#img_big{
+.img_big{
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -295,7 +295,7 @@ a:hover{
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
 }
-#img_medium{
+.img_medium{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -309,7 +309,7 @@ a:hover{
     box-shadow: 5px 5px 10px 0px #cacaca;
     height: 165px;
 }
-#img_small{
+.img_small{
     display: flex;
     align-items: flex-start;
     justify-content: center;
