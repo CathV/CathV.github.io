@@ -167,6 +167,9 @@ h1{
     align-items: flex-start;
     height: 80%;
 }
+.img_resize_small{
+    max-width: 100%;
+}
 footer{
     flex-direction: row;
     margin-top: 40px;

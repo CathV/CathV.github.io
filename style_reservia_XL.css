@@ -65,7 +65,7 @@ h1{
     flex-direction: row;
 }
 .figure_img_top{
-    max-width: 230px;
+    max-width: 30%;
     margin: 16px 0px 16px 0px;
 }
 #section_populaire{
@@ -118,6 +118,9 @@ h1{
     max-width: 350px;
     height: 165px;
     margin: 0px;
+}
+.img_resize_small{
+    max-width: 100%;
 }
 footer{
     flex-direction: row;

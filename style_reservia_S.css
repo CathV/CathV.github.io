@@ -46,7 +46,7 @@ h1{
 #button{
     border-radius: 12px;
 }
-.option_display_desktop{
+#option_display_desktop{
     display: none;
 }
 #filters{
@@ -78,7 +78,7 @@ h1{
     flex-direction: column;
 }
 .figure_img_top{
-    width: 98%;
+    width: 97%;
     margin: 8px 0px 8px 0px;
 }
 #section_populaire{
@@ -125,6 +125,9 @@ h1{
     width: 100%;
     margin: 0px 0px 16px 0px;
 }
+.img_resize_small{
+    max-width: 100%;
+}
 footer{
     flex-direction: column;
     padding-top: 32px;
@@ -133,5 +136,5 @@ footer{
 }
 .footer_column{
     margin: 8px 24px;
-    width: 100%;
+    width: 88%;
 }

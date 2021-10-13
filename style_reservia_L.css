@@ -119,6 +119,9 @@ h1{
     height: 165px;
     margin: 0px;
 }
+.img_resize_small{
+    max-width: 100%;
+}
 footer{
     flex-direction: row;
     margin-top: 40px;
