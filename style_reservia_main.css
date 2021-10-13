@@ -137,15 +137,14 @@ a:hover{
 .filter_chip:hover{
     background-color: #DEEBFF;
 }
-.round_icon{
+.fa-child, .fa-heart, .fa-dog, .fa-money-bill-wave{
+    justify-content: center;
+    align-items: center;
     color: #0065FC;
     background:#DEEBFF;
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #info_icon{
     color: #0065FC;
@@ -252,14 +251,7 @@ a:hover{
 .stars{
     justify-self: end;
 }
-.active_star{
-    color: #0065FC;
-    font-size: 12px;
-}
-.unactive_star{
-    color: #F2F2F2; 
-    font-size: 12px;
-}
+
 #liste_activites{
     display: flex;
 }
