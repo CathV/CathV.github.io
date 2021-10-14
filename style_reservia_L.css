@@ -15,8 +15,11 @@ h1{
     align-items: center;
 }
 .focus_action{
+    padding: 16px;
+}
+.focus_action:hover{
     border-top: #0065FC 2px solid;
-    padding: 24px;
+    color: #0065FC;
 }
 .primary_action{
     padding: 24px;
@@ -98,6 +101,9 @@ h1{
 .img_big{
     align-items: flex-start;
     height: 86%;
+}
+.align_center{
+    margin-top: 16px;
 }
 #column_1{
     margin: 0px 16px 0px 0px;

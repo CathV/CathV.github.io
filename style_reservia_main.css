@@ -55,12 +55,8 @@ b{
     align-items: center;
 }
 .focus_action{
-    color: #0065FC;
     margin: 0px;
     text-align: center;
-}
-.anchor_action{
-    margin: 0px;
 }
 .primary_action{
     color: #0065FC;
@@ -72,13 +68,6 @@ a{
 }
 a:hover{
     color:#0065FC;
-}
-.card{
-    text-decoration: none;
-    color: black;
-}
-.card:hover{
-    color: black;
 }
 #header{
     margin-top: 32px;
@@ -164,6 +153,12 @@ a:hover{
     margin: 4px 0px 4px 0px;
     font-size: 14px;
 }
+.card:hover{
+    color: black;
+}
+.card_pop:hover{
+    color: black;
+}
 #section_hebergements{
     display: flex;
     margin-bottom: 64px;
@@ -181,6 +176,9 @@ a:hover{
     padding: 4px;
     box-shadow: 5px 5px 10px 0px #cacaca;
     height: 180px;
+}
+.figure_img_top:hover {
+    box-shadow: 10px 5px 10px 0px #cacaca;
 }
 .img_hebergement{
     display: flex;
@@ -227,6 +225,9 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
+.figure_img_left:hover {
+    box-shadow: 10px 5px 10px 0px #cacaca;
+}
 .img_populaire{
     display: flex;
     justify-content: center;
@@ -251,17 +252,19 @@ a:hover{
 .stars{
     justify-self: end;
 }
-
 #liste_activites{
     display: flex;
 }
 .caption_activites{
-    padding: 8px 8px 8px 16px;
+    padding: 8px 16px;
 }
 .figure_big{
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
+}
+.figure_big:hover {
+    box-shadow: 10px 5px 10px 0px #cacaca;
 }
 .img_big{
     display: flex;
@@ -287,6 +290,9 @@ a:hover{
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
 }
+.figure_medium:hover {
+    box-shadow: 10px 5px 10px 0px #cacaca;
+}
 .img_medium{
     display: flex;
     align-items: center;
@@ -300,6 +306,9 @@ a:hover{
     background-color: white;
     box-shadow: 5px 5px 10px 0px #cacaca;
     height: 165px;
+}
+.figure_small:hover {
+    box-shadow: 10px 5px 10px 0px #cacaca;
 }
 .img_small{
     display: flex;
