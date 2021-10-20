@@ -1,35 +1,35 @@
-@font-face {
-    font-family: "Raleway_Regular";
-    src: url("/Raleway/Raleway-Regular.ttf");
-}
-@font-face {
-    font-family: "Raleway_Medium";
-    src: url("/Raleway/Raleway-Medium.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
 h2{
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 20px;
 }
 h3{
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 18px;
     margin: 8px 16px 8px 0px;
 }
 .h4like{
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 16px;
 }
 h4{
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     margin:8px 0px 4px 0px;
 }
 p{
-    font-family: "Raleway_Regular";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 16px;
 }
 b{
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 #navigation_bar{
     display: flex;
@@ -48,7 +48,8 @@ b{
 }
 .primary_action{
     color: #0065FC;
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 a{
     text-decoration: none;
@@ -83,7 +84,8 @@ a:hover{
     width: 150px;
 }
 ::placeholder{
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     color: black;
 }

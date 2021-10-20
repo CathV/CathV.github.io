@@ -1,10 +1,12 @@
 body {
     max-width: 1215px;
     margin: 0px 32px;
-    font-family: "Raleway_Regular";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 h1{
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 26px;
     margin: 24px 0px 16px 0px;
 }

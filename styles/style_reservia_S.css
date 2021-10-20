@@ -1,9 +1,11 @@
 body {
     margin: 0px 16px;
-    font-family: "Raleway-Regular";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 h1{
-    font-family: "Raleway_Medium";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 22px;
     margin: 24px 0px 16px 0px;
 }
