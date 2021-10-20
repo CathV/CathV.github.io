@@ -6,6 +6,7 @@ body {
 h1{
     font-family: 'Raleway_Medium';
     font-size: 26px;
+    margin-bottom: 16px;
 }
 #navigation_bar{
     flex-wrap: wrap;

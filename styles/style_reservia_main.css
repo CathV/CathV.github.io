@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Raleway_Black';
-    src: url('/typography//Raleway-Black.ttf');
+    src: url('/typography/Raleway-Black.ttf');
 }
 @font-face {
     font-family: 'Raleway_Light';
@@ -8,15 +8,15 @@
 }
 @font-face {
     font-family: 'Raleway_Bold';
-    src: url('/typography//Raleway-Bold.ttf');
+    src: url('/typography/Raleway-Bold.ttf');
 }
 @font-face {
     font-family: 'Raleway_Regular';
-    src: url('/typography//Raleway-Regular.ttf');
+    src: url('/typography/Raleway-Regular.ttf');
 }
 @font-face {
     font-family: 'Raleway_Medium';
-    src: url('/typography//Raleway-Medium.ttf');
+    src: url('/typography/Raleway-Medium.ttf');
 }
 h2{
     font-family: 'Raleway_Medium';
@@ -79,7 +79,7 @@ a:hover{
     border: 2px solid #F2F2F2;
     max-width: max-content;
     height: 48px;
-    margin: 32px 0px;
+    margin: 16px 0px;
 }
 #square_icon{
     background-color: #F2F2F2;
