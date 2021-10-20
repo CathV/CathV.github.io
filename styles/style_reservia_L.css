@@ -106,11 +106,11 @@ h1{
 .align_center{
     margin-top: 16px;
 }
-#column_1{
+#activities_column1{
     margin: 0px 16px 0px 0px;
     width: 25%;
 }
-#column_2{
+#activities_column2{
     width: 25%;
 }
 .figure_medium{

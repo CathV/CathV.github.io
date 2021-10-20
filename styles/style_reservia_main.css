@@ -25,7 +25,7 @@ h2{
 h3{
     font-family: 'Raleway_Medium';
     font-size: 18px;
-    margin: 8px 0px;
+    margin: 8px 16px 8px 0px;
 }
 .h4like{
     font-family: 'Raleway_Medium';
@@ -69,7 +69,7 @@ a{
 a:hover{
     color:#0065FC;
 }
-#header{
+#section_search{
     margin-top: 32px;
 }
 #search{
@@ -99,6 +99,10 @@ a:hover{
     font-size: 16px;
     color: black;
 }
+#city{
+    border: 0px; 
+    height: 32px;
+}
 #button{
     width: max-content;
     background-color: #0065FC;
@@ -126,7 +130,8 @@ a:hover{
 .filter_chip:hover{
     background-color: #DEEBFF;
 }
-.fa-child, .fa-heart, .fa-dog, .fa-money-bill-wave{
+.filter_icon{
+    display: flex;
     justify-content: center;
     align-items: center;
     color: #0065FC;
@@ -134,6 +139,10 @@ a:hover{
     border-radius: 50%;
     width: 40px;
     height: 40px;
+}
+.filter_label{
+    padding: 8px 16px 8px 8px; 
+    margin: 0px;
 }
 #info_icon{
     color: #0065FC;
@@ -153,10 +162,7 @@ a:hover{
     margin: 4px 0px 4px 0px;
     font-size: 14px;
 }
-.card:hover{
-    color: black;
-}
-.card_pop:hover{
+.link_card:hover{
     color: black;
 }
 #section_hebergements{
@@ -217,6 +223,14 @@ a:hover{
     margin-top: 8px;
     font-size: 14px;
 }
+.active_star{
+    color: #0065FC;
+    font-size: 12px;
+}
+.unactive_star{
+    color: #F2F2F2;
+    font-size: 12px;
+}
 .figure_img_left{
     border-radius: 20px;
     background-color: white;
@@ -241,13 +255,16 @@ a:hover{
 .img_resize_left{
     max-height: 150%;
 }
-.description_populaires{
+.description_populaire{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding-bottom: 8px;
     padding-left: 16px;
     width: 60%;
+}
+.fa-chart-line{
+    font-size:20px;
 }
 .stars{
     justify-self: end;
@@ -273,13 +290,13 @@ a:hover{
     object-fit:cover;
     border-radius: 20px 20px 0px 0px;
 }
-#column_1{
+#activities_column1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
-#column_2{
+#activities_column2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;

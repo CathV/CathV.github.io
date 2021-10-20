@@ -75,7 +75,7 @@ h1{
 #section_populaire{
     padding: 24px;
     border-radius: 20px;
-    width: 45%;
+    width: 30%;
 }
 .figure_img_left{
     margin: 16px 0px 16px 0px;
@@ -103,11 +103,11 @@ h1{
     align-items: flex-start;
     height: 90%;
 }
-#column_1{
+#activities_column1{
     margin: 0px 16px 0px 0px;
     width: 25%;
 }
-#column_2{
+#activities_column2{
     width: 25%;
 }
 .figure_medium{

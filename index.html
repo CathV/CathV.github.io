@@ -13,26 +13,29 @@
 
 <body>
 
-<nav id="navigation_bar">
-    <p class="logo">
-        <img src="images/logo/Reservia.svg" alt="reservia_logo">
-    </p>
-    <div class="anchor_tabs">
-        <a href="#section_marseille" class="focus_action"><p>Hébergements</p></a>
-        <a href="#section_activites" class="focus_action"><p>Activités</p></a>
-    </div>
-    <p class="primary_action">S'inscrire</p>
-</nav>
-
-<section id="header">
+<header>
+    <nav id="navigation_bar">
+        <p class="logo">
+            <img src="images/logo/Reservia.svg" alt="reservia_logo">
+        </p>
+        <div class="anchor_tabs">
+            <a href="#section_marseille" class="focus_action"><p>Hébergements</p></a>
+            <a href="#section_activites" class="focus_action"><p>Activités</p></a>
+        </div>
+        <p class="primary_action">S'inscrire</p>
+    </nav>
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
     <p style="margin-top: 0px;">En plein centre ville ou en pleine nature</p>
+</header>
+
+
+<section id="section_search">
     <div id="search">
         <i class="fas fa-map-marker-alt" id="square_icon"></i>
         <div id="search_bar">
             <form method="post" action="traitement.php">
                 <p>
-                    <input type="text" name="city" id="city" placeholder="Marseille, France" style="border: 0px; height: 32px;"/>
+                    <input type="text" name="city" id="city" placeholder="Marseille, France"/>
                 </p>
              </form>
         </div>
@@ -40,22 +43,21 @@
             <p class="h4like" id="option_display_desktop">Rechercher</p>
             <i class="fas fa-search" id="option_display_mobile"></i>
         </div>
-
     </div>
     <div id="filters">
-        <h3 style="margin-right: 16px">Filtres</h3>
+        <h3>Filtres</h3>
         <div id="filters_block">
             <div class="filter_chip">
-                <i class="fas fa-money-bill-wave" style="display: flex;"></i><p class="h4like" style="padding: 8px 16px 8px 8px; margin: 0px;">Économique</p>
+                <i class="fas fa-money-bill-wave filter_icon"></i><p class="h4like filter_label">Économique</p>
             </div>
             <div class="filter_chip">
-                <i class="fas fa-child" style="display: flex;"></i><p class="h4like" style="padding: 8px 16px 8px 8px; margin: 0px;">Familial</p>
+                <i class="fas fa-child filter_icon "></i><p class="h4like filter_label">Familial</p>
             </div>
             <div class="filter_chip">
-                <i class="fas fa-heart" style="display: flex;"></i><p class="h4like" style="padding: 8px 16px 8px 8px; margin: 0px;">Romantique</p>
+                <i class="fas fa-heart filter_icon"></i><p class="h4like filter_label">Romantique</p>
             </div>
             <div class="filter_chip">
-                <i class="fas fa-dog" style="display: flex;"></i><p class="h4like" style="padding: 8px 16px 8px 8px; margin: 0px;">Animaux autorisés</p>
+                <i class="fas fa-dog filter_icon"></i><p class="h4like filter_label">Animaux autorisés</p>
             </div>
         </div>
     </div>
@@ -69,106 +71,126 @@
     <section id="section_marseille">
         <h2>Hébergements à Marseille</h2>
         <div id="liste_marseille">
-        <figure class="figure_img_top"><a href="#" class="card">
+        <figure class="figure_img_top">
             <div class="img_hebergement">
+                <a href="#" class="link_card">
                 <img class="img_resize_top" src="images/hebergements/3_medium/1_auberge_cannebiere.jpg" alt="auberge_cannebiere">
+                </a>
             </div>
             <figcaption class="description_hebergement">
+                <a href="#" class="link_card">
                 <h4>Auberge de la Cannebière</h4>
                 <p class="price">Nuit à partir de <b>25€</b></p>
                 <div class="stars">
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #F2F2F2;"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star unactive_star"></i>
                 </div>
+                </a>
             </figcaption>
-        </a>
         </figure>
-        <figure class="figure_img_top"><a href="#" class="card">
+        <figure class="figure_img_top">
             <div class="img_hebergement">
+                <a href="#" class="link_card">
                 <img class="img_resize_top" src="images/hebergements/3_medium/2_hotel_port.jpg" alt="hotel_port">
+                </a>
             </div>
             <figcaption class="description_hebergement">
+                <a href="#" class="link_card">
                 <h4>Hôtel du Port</h4>
                 <p class="price">Nuit à partir de <b>52€</b></p>
                 <div class="stars">
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
                 </div>
+                </a>
             </figcaption>
-            </a>
         </figure>
-        <figure class="figure_img_top"><a href="#" class="card">
+        <figure class="figure_img_top">
             <div class="img_hebergement">
+                <a href="#" class="link_card">
                 <img class="img_resize_top" src="images/hebergements/3_medium/3_hotel_mouettes.jpg" alt="hotel_mouettes">
+                </a>
             </div>
-            <figdescription class="description_hebergement">
+            <figcaption class="description_hebergement">
+                <a href="#" class="link_card">
                 <h4>Hôtel Les Mouettes</h4>
                 <p class="price">Nuit à partir de <b>76€</b></p>
                 <div class="stars">
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #F2F2F2;"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star unactive_star"></i>
                 </div>
+                </a>
             </figcaption>
-            </a>
         </figure>
-        <figure class="figure_img_top"><a href="#" class="card">
+        <figure class="figure_img_top">
             <div class="img_hebergement">
+                <a href="#" class="link_card">
                 <img class="img_resize_top" src="images/hebergements/3_medium/4_hotel_mer.jpg" alt="hotel_mer">
+                </a>
             </div>
             <figcaption class="description_hebergement">
+                <a href="#" class="link_card">
                 <h4>Hôtel de la Mer</h4>
                 <p class="price">Nuit à partir de <b>46€</b></p>
                 <div class="stars">
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #F2F2F2;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #F2F2F2;"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star unactive_star"></i>
+                    <i class="fas fa-star unactive_star"></i>
                 </div>
+                </a>
             </figcaption>
-            </a>
         </figure>
-        <figure class="figure_img_top"><a href="#" class="card">
+        <figure class="figure_img_top">
             <div class="img_hebergement">
+                <a href="#" class="link_card">
                 <img class="img_resize_top" src="images/hebergements/3_medium/5_auberge_panier.jpg" alt="auberge_panier">
+                </a>
             </div>
             <figcaption class="description_hebergement">
+                <a href="#" class="link_card">
                 <h4>Auberge Le Panier</h4>
                 <p class="price">Nuit à partir de <b>23€</b></p>
                 <div class="stars">
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #F2F2F2;"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star unactive_star"></i>
                 </div>
+                </a>
             </figcaption>
-            </a>
         </figure>
-        <figure class="figure_img_top"><a href="#" class="card">
+        <figure class="figure_img_top">
             <div class="img_hebergement">
+                <a href="#" class="link_card">
                 <img class="img_resize_top" src="images/hebergements/3_medium/6_hotel_amiina.jpg" alt="hotel_amina">
+                </a>
             </div>
             <figcaption class="description_hebergement">
+                <a href="#" class="link_card">
                 <h4>Hôtel chez Amina</h4>
                 <p class="price">Nuit à partir de <b>96€</b></p>
                 <div class="stars">
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
                 </div>
+                </a>
             </figcaption>
+            <a href="#" class="link_card">
             </a>
         </figure>
         </div>
@@ -178,69 +200,73 @@
     <section id="section_populaire">
         <div id="title_populaires">
             <h2>Les plus populaires</h2>
-            <i class="fas fa-chart-line" style="font-size:20px;"></i>
+            <i class="fas fa-chart-line"></i>
         </div>
         <div id="liste_populaires">
-        <a href="#" class="card_pop">
         <figure class="figure_img_left">
             <div class="img_populaire">
-            <img class="img_resize_left" src="images/hebergements/3_medium/a_hotel_soleil.jpg" alt="hotel_soleil">
+                <a href="#" class="link_card">
+                <img class="img_resize_left" src="images/hebergements/3_medium/a_hotel_soleil.jpg" alt="hotel_soleil">
+                </a>
             </div>
-            <figcaption class="description_populaires">
-            <div>
+            <figcaption class="description_populaire">
+                <a href="#" class="link_card">
+                <div>
                 <h4>Hôtel Le soleil du matin</h4>
                 <p class="price_pop">Nuit à partir de <b>128€</b></p>
-            </div>
-            <div class="stars">
-                <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-            </div>
+                </div>
+                <div class="stars">
+                <i class="fas fa-star active_star"></i>
+                <i class="fas fa-star active_star"></i>
+                <i class="fas fa-star active_star"></i>
+                <i class="fas fa-star active_star"></i>
+                <i class="fas fa-star active_star"></i>
+                </div>
+                </a>
             </figcaption>
         </figure>
-        </a>
-        <a href="#" class="card_pop">
         <figure class="figure_img_left">
             <div class="img_populaire">
+                <a href="#" class="link_card">
                 <img class="img_resize_left" src="images/hebergements/3_medium/b_coeur_eau.jpg" alt="chambre_eau">
+                </a>
             </div>
-            <figcaption class="description_populaires">
+            <figcaption class="description_populaire">
+                <a href="#" class="link_card">
                 <div>
                     <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                     <p class="price_pop">Nuit à partir de <b>71€</b></p>
                 </div>
                 <div class="stars">
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #F2F2F2;"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
                 </div>
+                </a>
             </figcaption>
         </figure>
-        </a>
-        <a href="#" class="card_pop">
         <figure class="figure_img_left">
             <div class="img_populaire">
+                <a href="#" class="link_card">
                 <img class="img_resize_top" src="images/hebergements/3_medium/c_tout_bleu.jpg" alt="hotel_bleu">
+                </a>
             </div>
-            <figcaption class="description_populaires">
+            <figcaption class="description_populaire">
                 <div>
                     <h4>Hôtel Tout bleu et Blanc</h4>
                     <p class="price_pop">Nuit à partir de <b>68€</b></p>
                 </div>
                 <div class="stars">
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #0065FC;"></i>
-                    <i class="fas fa-star" style="font-size: 12px; color: #F2F2F2;"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star active_star"></i>
+                    <i class="fas fa-star unactive_star"></i>
                 </div>
             </figcaption>
         </figure>
-        </a>
     </div>
     </section>
 </section>
@@ -248,63 +274,81 @@
 <section id="section_activites">
     <h2>Activités à Marseille</h2>
     <div id="liste_activites">
-        <figure class="figure_big"><a href="#" class="card">
+        <figure class="figure_big">
         <div class="img_big">
+            <a href="#" class="link_card">
             <img class="img_resize_horizontal" src="images/activites/3_medium/1.port.jpg" alt="vieux_port">
+            </a>
         </div>
         <figcaption class="description_activites">
+            <a href="#" class="link_card">
             <h4 class="align_center">Vieux Port</h4>
-        </figcaption>
             </a>
+        </figcaption>
         </figure>
-        <div id="column_1">
-        <figure class="figure_medium"><a href="#" class="card">
+        <div id="activities_column1">
+            <figure class="figure_medium">
             <div class="img_medium">
+                <a href="#" class="link_card">
                 <img class="img_resize_vertical" src="images/activites/3_medium/2.fort.jpg" alt="fort_marseille">
+                </a>
             </div>
             <figcaption class="description_activites">
+                <a href="#" class="link_card">
                 <h4>Fort de Pomègues</h4>
+                </a>
             </figcaption>
-            </a>
-        </figure>
-        <figure class="figure_small"><a href="#" class="card">
-            <div class="img_small">
-                <img class="img_resize_small" src="images/activites/3_medium/3.frioul.jpg" alt="Iles Frioul">
+            </figure>
+            <figure class="figure_small">
+                <div class="img_small">
+                    <a href="#" class="link_card">
+                    <img class="img_resize_small" src="images/activites/3_medium/3.frioul.jpg" alt="Iles Frioul">
+                    </a>
+                </div>
+                <figcaption class="description_activites">
+                    <a href="#" class="link_card">
+                    <h4>Îles du Frioul</h4>
+                </a>
+            </figcaption>
+            </figure>
+        </div>
+        <figure class="figure_big">
+            <div class="img_big">
+                <a href="#" class="link_card">
+                <img class="img_resize_horizontal" src="images/activites/3_medium/4.calanques.jpg" alt="Les Calanques">
+                </a>
             </div>
             <figcaption class="description_activites">
-                <h4>Îles du Frioul</h4>
+                <a href="#" class="link_card">
+                <h4>Parc National des Calanques</h4>
+                </a>
             </figcaption>
-            </a>
         </figure>
-        </div>
-        <figure class="figure_big"><a href="#" class="card">
-        <div class="img_big">
-            <img class="img_resize_horizontal" src="images/activites/3_medium/4.calanques.jpg" alt="Les Calanques">
-        </div>
-        <figcaption class="description_activites">
-            <h4>Parc National des Calanques</h4>
-        </figcaption>
-            </a>
-        </figure>
-        <div id="column_2">
-        <figure class="figure_small"><a href="#" class="card">
+        <div id="activities_column2">
+            <figure class="figure_small">
             <div class="img_small">
+                <a href="#" class="link_card">
                 <img class="img_resize_small" src="images/activites/3_medium/5.nd_garde.jpg" alt="eglise Notre-Dame-de-la-Garde">
+                </a>
             </div>
             <figcaption class="description_activites">
+                <a href="#" class="link_card">
                 <h4>Notre-Dame-de-la-Garde</h4>
+                </a>
             </figcaption>
-            </a>
-        </figure>
-        <figure class="figure_medium"><a href="#" class="card">
+            </figure>
+            <figure class="figure_medium"><a href="#" class="link_card">
             <div class="img_medium">
+                <a href="#" class="link_card">
                 <img class="img_resize_horizontal" src="images/activites/3_medium/6.parc_longchamp.jpg" alt="Parc Longchamp">
+                </a>
             </div>
             <figcaption class="description_activites">
+                <a href="#" class="link_card">
                 <h4>Parc Longchamp</h4>
+                </a>
             </figcaption>
-            </a>
-        </figure>
+            </figure>
         </div>
     </div>
 </section>
