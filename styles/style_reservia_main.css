@@ -1,31 +1,31 @@
 @font-face {
-    font-family: 'Raleway_Regular';
+    font-family: "Raleway_Regular";
     src: url("/Raleway/Raleway-Regular.ttf");
 }
 @font-face {
-    font-family: 'Raleway_Medium';
+    font-family: "Raleway_Medium";
     src: url("/Raleway/Raleway-Medium.ttf");
 }
 h2{
-    font-family: 'Raleway_Medium';
+    font-family: "Raleway_Medium";
     font-size: 20px;
 }
 h3{
-    font-family: 'Raleway_Medium';
+    font-family: "Raleway_Medium";
     font-size: 18px;
     margin: 8px 16px 8px 0px;
 }
 .h4like{
-    font-family: 'Raleway_Medium';
+    font-family: "Raleway_Medium";
     font-size: 16px;
 }
 h4{
-    font-family: 'Raleway_Medium';
+    font-family: "Raleway_Medium";
     font-size: 16px;
     margin:8px 0px 4px 0px;
 }
 p{
-    font-family: 'Raleway_Regular';
+    font-family: "Raleway_Regular";
     font-size: 16px;
 }
 b{
@@ -48,7 +48,7 @@ b{
 }
 .primary_action{
     color: #0065FC;
-    font-family: 'Raleway_Medium';
+    font-family: "Raleway_Medium";
 }
 a{
     text-decoration: none;
@@ -83,7 +83,7 @@ a:hover{
     width: 150px;
 }
 ::placeholder{
-    font-family: 'Raleway_Medium';
+    font-family: "Raleway_Medium";
     font-size: 16px;
     color: black;
 }
