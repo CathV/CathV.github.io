@@ -192,7 +192,7 @@ a:hover{
 .img_resize_top{
     max-width: 100%;
 }
-.caption_hebergement{
+.description_hebergement{
     padding-bottom: 8px;
     padding-left: 8px;
     height: 40%;
@@ -241,7 +241,7 @@ a:hover{
 .img_resize_left{
     max-height: 150%;
 }
-.caption_populaires{
+.description_populaires{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -255,7 +255,7 @@ a:hover{
 #liste_activites{
     display: flex;
 }
-.caption_activites{
+.description_activites{
     padding: 8px 16px;
 }
 .figure_big{
