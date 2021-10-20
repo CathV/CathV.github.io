@@ -131,7 +131,6 @@ a:hover{
     background-color: #DEEBFF;
 }
 .filter_icon{
-    display: flex;
     justify-content: center;
     align-items: center;
     color: #0065FC;
@@ -139,6 +138,9 @@ a:hover{
     border-radius: 50%;
     width: 40px;
     height: 40px;
+}
+#pets_icon, #family_icon, #heart_icon, #money_icon{
+    display: flex;
 }
 .filter_label{
     padding: 8px 16px 8px 8px; 
@@ -251,9 +253,6 @@ a:hover{
     width: 40%;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
-}
-.img_resize_left{
-    max-height: 150%;
 }
 .description_populaire{
     display: flex;

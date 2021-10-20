@@ -48,16 +48,16 @@
         <h3>Filtres</h3>
         <div id="filters_block">
             <div class="filter_chip">
-                <i class="fas fa-money-bill-wave filter_icon"></i><p class="h4like filter_label">Économique</p>
+                <i class="fas fa-money-bill-wave filter_icon" id="money_icon"></i><p class="h4like filter_label">Économique</p>
             </div>
             <div class="filter_chip">
-                <i class="fas fa-child filter_icon "></i><p class="h4like filter_label">Familial</p>
+                <i class="fas fa-child filter_icon" id="family_icon"></i><p class="h4like filter_label">Familial</p>
             </div>
             <div class="filter_chip">
-                <i class="fas fa-heart filter_icon"></i><p class="h4like filter_label">Romantique</p>
+                <i class="fas fa-heart filter_icon" id="heart_icon"></i><p class="h4like filter_label">Romantique</p>
             </div>
             <div class="filter_chip">
-                <i class="fas fa-dog filter_icon"></i><p class="h4like filter_label">Animaux autorisés</p>
+                <i class="fas fa-dog filter_icon" id="pets_icon"></i><p class="h4like filter_label">Animaux autorisés</p>
             </div>
         </div>
     </div>
@@ -73,7 +73,7 @@
         <div id="liste_marseille">
         <figure class="figure_img_top">
             <div class="img_hebergement">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_top" src="images/hebergements/3_medium/1_auberge_cannebiere.jpg" alt="auberge_cannebiere">
                 </a>
             </div>
@@ -93,7 +93,7 @@
         </figure>
         <figure class="figure_img_top">
             <div class="img_hebergement">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_top" src="images/hebergements/3_medium/2_hotel_port.jpg" alt="hotel_port">
                 </a>
             </div>
@@ -113,7 +113,7 @@
         </figure>
         <figure class="figure_img_top">
             <div class="img_hebergement">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_top" src="images/hebergements/3_medium/3_hotel_mouettes.jpg" alt="hotel_mouettes">
                 </a>
             </div>
@@ -133,7 +133,7 @@
         </figure>
         <figure class="figure_img_top">
             <div class="img_hebergement">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_top" src="images/hebergements/3_medium/4_hotel_mer.jpg" alt="hotel_mer">
                 </a>
             </div>
@@ -153,7 +153,7 @@
         </figure>
         <figure class="figure_img_top">
             <div class="img_hebergement">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_top" src="images/hebergements/3_medium/5_auberge_panier.jpg" alt="auberge_panier">
                 </a>
             </div>
@@ -173,7 +173,7 @@
         </figure>
         <figure class="figure_img_top">
             <div class="img_hebergement">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_top" src="images/hebergements/3_medium/6_hotel_amiina.jpg" alt="hotel_amina">
                 </a>
             </div>
@@ -202,11 +202,11 @@
         </div>
         <div id="liste_populaires">
         <figure class="figure_img_left">
-            <div class="img_populaire">
-                <a href="#" class="link_card">
-                <img class="img_resize_left" src="images/hebergements/3_medium/a_hotel_soleil.jpg" alt="hotel_soleil">
-                </a>
-            </div>
+            <a href="#" class="link_img_populaire">
+                <div class="img_populaire">
+                    <img class="img_resize_left" src="images/hebergements/3_medium/a_hotel_soleil.jpg" alt="hotel_soleil">
+                </div>
+            </a>
             <figcaption class="description_populaire">
                 <a href="#" class="link_card">
                 <div>
@@ -224,11 +224,11 @@
             </figcaption>
         </figure>
         <figure class="figure_img_left">
-            <div class="img_populaire">
-                <a href="#" class="link_card">
-                <img class="img_resize_left" src="images/hebergements/3_medium/b_coeur_eau.jpg" alt="chambre_eau">
-                </a>
-            </div>
+            <a href="#" class="link_img_populaire">
+                <div class="img_populaire">
+                    <img class="img_resize_left" src="images/hebergements/3_medium/b_coeur_eau.jpg" alt="chambre_eau">
+                </div>
+            </a>
             <figcaption class="description_populaire">
                 <a href="#" class="link_card">
                 <div>
@@ -246,12 +246,13 @@
             </figcaption>
         </figure>
         <figure class="figure_img_left">
-            <div class="img_populaire">
-                <a href="#" class="link_card">
-                <img class="img_resize_top" src="images/hebergements/3_medium/c_tout_bleu.jpg" alt="hotel_bleu">
-                </a>
-            </div>
+            <a href="#" class="link_img_populaire">
+                <div class="img_populaire">
+                    <img class="img_resize_top" src="images/hebergements/3_medium/c_tout_bleu.jpg" alt="hotel_bleu">
+                </div>
+            </a>
             <figcaption class="description_populaire">
+                <a href="#" class="link_card">
                 <div>
                     <h4>Hôtel Tout bleu et Blanc</h4>
                     <p class="price_pop">Nuit à partir de <b>68€</b></p>
@@ -263,6 +264,7 @@
                     <i class="fas fa-star active_star"></i>
                     <i class="fas fa-star unactive_star"></i>
                 </div>
+                </a>
             </figcaption>
         </figure>
     </div>
@@ -273,11 +275,11 @@
     <h2>Activités à Marseille</h2>
     <div id="liste_activites">
         <figure class="figure_big">
-            <div class="img_big">
-                <a href="#" class="link_card">
-                <img class="img_resize_horizontal" src="images/activites/3_medium/1.port.jpg" alt="vieux_port">
-                </a>
-            </div>
+            <a href="#" class="link_img_big">
+                <div class="img_big">
+                    <img class="img_resize_horizontal" src="images/activites/3_medium/1.port.jpg" alt="vieux_port">
+                </div>
+            </a>
             <figcaption class="description_activites">
                 <a href="#" class="link_card">
                 <h4 class="align_center">Vieux Port</h4>
@@ -287,7 +289,7 @@
         <div id="activities_column1">
             <figure class="figure_medium">
             <div class="img_medium">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_vertical" src="images/activites/3_medium/2.fort.jpg" alt="fort_marseille">
                 </a>
             </div>
@@ -299,7 +301,7 @@
             </figure>
             <figure class="figure_small">
                 <div class="img_small">
-                    <a href="#" class="link_card">
+                    <a href="#">
                     <img class="img_resize_small" src="images/activites/3_medium/3.frioul.jpg" alt="Iles Frioul">
                     </a>
                 </div>
@@ -311,11 +313,12 @@
             </figure>
         </div>
         <figure class="figure_big">
-            <div class="img_big">
-                <a href="#" class="link_card">
-                <img class="img_resize_horizontal" src="images/activites/3_medium/4.calanques.jpg" alt="Les Calanques">
-                </a>
-            </div>
+            <a href="#" class="link_img_big">
+                <div class="img_big">
+                    <img class="img_resize_horizontal" src="images/activites/3_medium/4.calanques.jpg" alt="Les Calanques">
+                </div>
+            </a>
+            
             <figcaption class="description_activites">
                 <a href="#" class="link_card">
                 <h4>Parc National des Calanques</h4>
@@ -325,7 +328,7 @@
         <div id="activities_column2">
             <figure class="figure_small">
             <div class="img_small">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_small" src="images/activites/3_medium/5.nd_garde.jpg" alt="eglise Notre-Dame-de-la-Garde">
                 </a>
             </div>
@@ -337,7 +340,7 @@
             </figure>
             <figure class="figure_medium">
             <div class="img_medium">
-                <a href="#" class="link_card">
+                <a href="#">
                 <img class="img_resize_horizontal" src="images/activites/3_medium/6.parc_longchamp.jpg" alt="Parc Longchamp">
                 </a>
             </div>

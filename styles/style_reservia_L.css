@@ -9,7 +9,7 @@
     h1{
         font-family: 'Raleway_Medium';
         font-size: 26px;
-        margin-bottom: 16px;
+        margin: 24px 0px 16px 0px;
     }
     .logo{
         width: 80%;
@@ -78,12 +78,21 @@
     #section_populaire{
         padding: 24px;
         border-radius: 20px;
-        width: 200%;
+        width: 35%;
     }
     .figure_img_left{
         margin: 16px 0px 16px 0px;
         height: 115px;
         max-width: 100%;
+    }
+    .img_resize_left{
+        max-height: 150%;
+    }
+    .link_img_populaire{
+        max-width: 35%;
+    }
+    .img_populaire{
+        width: 100%;
     }
     #liste_activites{
         flex-direction: row;

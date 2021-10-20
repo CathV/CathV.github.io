@@ -1,5 +1,4 @@
 @media screen and (max-width: 767px) 
-/* Mobile = Under 768px*/
 {
     body {
         margin: 0px 16px;
@@ -8,7 +7,7 @@
     h1{
         font-family: 'Raleway_Medium';
         font-size: 22px;
-        margin-bottom: 16px;
+        margin: 24px 0px 16px 0px;
     }
     #navigation_bar{
         flex-wrap: wrap;
@@ -96,6 +95,15 @@
         height: 130px;
         max-width: 100%;
     }
+    .img_resize_left{
+        max-height: 150%;
+    }
+    .link_img_populaire{
+        max-width: 35%;
+    }
+    .img_populaire{
+        width: 100%;
+    }
     #liste_activites{
         flex-direction: column;
         justify-content: flex-start;
@@ -141,6 +149,7 @@
         margin: 8px 24px;
         width: 88%;
     }
+/* Mobile = Under 768px*/
 }
 
 
